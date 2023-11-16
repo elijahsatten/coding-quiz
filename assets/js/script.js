@@ -21,7 +21,7 @@ var answerButton = document.querySelectorAll(".btn");
 var start = document.querySelector("#start-button");
 var qa = document.querySelector("#qa");
 var questionTitle = document.querySelector("#question");
-var scoreBoard = [];
+var scoreContainer = document.querySelector(".score-container");
 var score = 0;
 var timeLeft = document.querySelector("#timer");
 var timeInterval;
@@ -97,12 +97,13 @@ function endGame() {
     clearInterval(timeInterval);
     timeLeft.textContent = 0;
     start.classList.remove("hide");
+    scoreContainer.classList.remove("hide");
     qa.classList.add("hide");
     var highscores = {
         name: prompt(score + "/" + questions.length + " What name would you like to save your score as?"),
         score: score
     }
-    scoreBoard.push(highscores);
+    scoreContainer.push(highscores);
     localStorage.setItem("scoreboard", JSON.stringify(scoreBoard));
 }
 start.addEventListener("click", startGame);
