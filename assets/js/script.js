@@ -104,6 +104,6 @@ function endGame() {
         score: score
     }
     scoreContainer.push(highscores);
-    localStorage.setItem("scoreboard", JSON.stringify(scoreBoard));
+    localStorage.setItem("scoreboard", JSON.stringify(scoreContainer));
 }
 start.addEventListener("click", startGame);
