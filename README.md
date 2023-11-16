@@ -12,7 +12,7 @@ N/A
 
 Deployment site: https://elijahsatten.github.io/module-4-challenge/
 
-Screenshots in assets folder.
+![Screenshot](assets/images/screenshot.png)
 
 ## Credits
 
