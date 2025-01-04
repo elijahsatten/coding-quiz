@@ -1,22 +1,10 @@
-# Module 4 Challenge - Coding Quiz
+# Simple Quiz
 
 ## Description
 
-Module 4 Challenge Project - Coding Quiz
+Just a simple quiz to test your knowledge
 
-## Installation
-
-N/A
-
-## Usage
-
-Deployment site: https://elijahsatten.github.io/module-4-challenge/
-
-![Screenshot](assets/images/screenshot.png)
-
-## Credits
-
-N/A
+Website: https://elijahsatten.github.io/coding-quiz/
 
 ## License
 
